@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 5px 5px;
+  padding: 0;
+  background-image: url('https://wallpaperset.com/w/full/8/1/0/243883.jpg');
+}
+
+h1 {
+  color: white;
+}
+
+/* */
+
+.movies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.movies__item {
+  max-height: 500px;
+  max-width: 300px;
+}
+
+.movies__image {
+  width: 100%;
+}
+
+.movies__title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
